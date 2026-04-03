@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <!-- ===== SEO META TAGS ===== -->
+  <title id="pageTitle">Milan Stojakov – Web Developer Portfolio | Serbia</title>
+
+  <meta name="description"
+    content="Explore Milan Stojakov's web developer portfolio. Modern, responsive websites built with HTML, CSS, JavaScript &amp; PHP. Available for freelance projects.">
+ 
+  <meta name="keywords"
+    content="Web Developer Portfolio, Freelance Web Developer Serbia, Responsive Website Design, HTML CSS JavaScript Developer, Affordable Web Design, Professional Website Development, Modern Website Design, Website Optimization SEO, Frontend Developer for Hire, Small Business Website, PHP Website Development">
+ 
+  <meta name="author" content="Milan Stojakov">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="en">
+ 
+  <!-- Open Graph -->
+
+<meta property="og:title" content="Milan Stojakov – Web Developer Portfolio | Serbia">
+<meta property="og:description" content="Modern, responsive websites built with HTML, CSS, JavaScript & PHP. Available for freelance projects.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://milan-stojakov.github.io/portfolio/">
+<meta property="og:image" content="https://milan-stojakov.github.io/portfolio/ja.png">
+ 
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Milan Stojakov – Web Developer Portfolio">
+  <meta name="twitter:description" content="Modern, responsive websites. Available for freelance projects.">
+ 
+  <!-- Canonical -->
+  <link rel="canonical" href="https://milanstojakov.com">
+ 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;800&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+ 
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png">
+ 
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Milan Stojakov",
+    "jobTitle": "Web Developer",
+    "url": "https://milanstojakov.com",
+    "sameAs": ["https://www.instagram.com/_.s_milan._/"],
+    "telephone": "+381649143226",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "RS"
+    },
+    "description": "Freelance web developer from Serbia specializing in HTML, CSS, JavaScript and PHP."
+  }
+  </script>
+</head>
+<body>
+ 
+<!-- ===== HEADER ===== -->
+<header role="banner">
+  <div class="logo" aria-label="Milan Stojakov Portfolio">M<span>.</span></div>
+  <nav role="navigation" aria-label="Main navigation">
+    <a href="#home"     class="nav-home"     data-en="Home"        data-sr="Početna">Home</a>
+    <a href="#about"    class="nav-about"    data-en="About Me"    data-sr="O meni">About Me</a>
+    <a href="#services" class="nav-services" data-en="Services"    data-sr="Usluge">Services</a>
+    <a href="#projects" class="nav-projects" data-en="My Projects" data-sr="Projekti">My Projects</a>
+    <a href="#contact"  class="nav-contact"  data-en="Contact Me"  data-sr="Kontakt">Contact Me</a>
+    <button class="lang-toggle" id="langBtn" title="Switch language / Promeni jezik" aria-label="Switch language">
+      <span class="flag">
+        <img src="uk-zastava.png" class="flag-img" id="flagIcon"
+             alt="English language flag" width="22" height="15">
+      </span>
+      <span class="lang-label" id="langLabel">EN</span>
+    </button>
+  </nav>
+  <button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+ 
+<!-- ===== HERO / HOME ===== -->
+<section id="home" aria-labelledby="heroHeading">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-content">
+    <div class="hero-top">
+ 
+      <div class="hero-text">
+        <!-- H1 – Primary keyword naturally included -->
+        <h1 id="heroHeading">
+          Milan Stojakov<span class="comma">,</span><br>
+          <span class="role" data-en="Web Developer" data-sr="Veb Developer">Web Developer</span>
+        </h1>
+        <p class="hero-sub"
+           data-en="Building fast, modern &amp; responsive websites that deliver real results."
+           data-sr="Gradim brze, moderne i responzivne sajtove koji donose stvarne rezultate.">
+          Building fast, modern &amp; responsive websites that deliver real results.
+        </p>
+        <div class="hero-cta-row">
+          <a href="#projects" class="btn-primary"
+             data-en="View My Projects" data-sr="Pogledaj Projekte">View My Projects</a>
+          <a href="#contact" class="btn-outline"
+             data-en="Contact Me" data-sr="Kontaktiraj Me">Contact Me</a>
+        </div>
+      </div>
+ 
+      <div class="hero-photo">
+        <img src="ja.png"
+             alt="Milan Stojakov – Freelance Web Developer from Serbia"
+             id="heroImg"
+             width="320" height="427"
+             loading="eager">
+      </div>
+ 
+    </div><!-- .hero-top -->
+ 
+    <!-- ABOUT ME bio – anchor target -->
+    <div class="hero-bio" id="about" aria-labelledby="aboutHeading">
+      <h2 id="aboutHeading"
+          data-en="About Me — Young Developer, Real Results"
+          data-sr="O Meni — Mlad Developer, Pravi Rezultati">
+        About Me — Young Developer, Real Results
+      </h2>
+ 
+      <p data-en="I&#39;m Milan Stojakov, a passionate freelance web developer from Serbia with hands-on experience building modern, high-performance websites for clients across various industries. My core expertise includes HTML, CSS, and JavaScript, which I apply daily to craft pixel-perfect, fully responsive website designs that look flawless on every device — desktop, tablet, and mobile."
+         data-sr="Ja sam Milan Stojakov, strastveni freelance web developer iz Srbije sa praktičnim iskustvom u izradi modernih sajtova za klijente iz različitih industrija. Moja osnovna ekspertiza uključuje HTML, CSS i JavaScript, koje svakodnevno koristim za kreiranje preciznih, potpuno responzivnih sajtova koji savršeno izgledaju na svakom uređaju.">
+        I&#39;m Milan Stojakov, a passionate freelance web developer from Serbia with hands-on experience building modern, high-performance websites for clients across various industries. My core expertise includes HTML, CSS, and JavaScript, which I apply daily to craft pixel-perfect, fully responsive website designs that look flawless on every device — desktop, tablet, and mobile.
+      </p>
+ 
+      <p data-en="I also possess foundational PHP website development knowledge, enabling me to create more dynamic, functional web solutions. What sets me apart isn&#39;t just clean code — it&#39;s my commitment to understanding your goals and translating them into a professional website that works for your business."
+         data-sr="Posjedujem i osnovno znanje PHP izrade sajtova, što mi omogućava kreiranje dinamičnijih i funkcionalnih veb rešenja. Ono što me izdvaja nije samo čist kod — to je moja posvećenost razumevanju vaših ciljeva i pretvaranju ih u profesionalni sajt koji radi za vaše poslovanje.">
+        I also possess foundational PHP website development knowledge, enabling me to create more dynamic, functional web solutions. What sets me apart isn&#39;t just clean code — it&#39;s my commitment to understanding your goals and translating them into a professional website that works for your business.
+      </p>
+ 
+      <p data-en="Whether you&#39;re a small business looking for your first website, a company seeking a redesign, or an employer searching for a reliable frontend developer for hire — I&#39;m here to help. I don&#39;t just build websites. I build your digital presence."
+         data-sr="Bilo da ste mala firma koja traži prvi sajt, kompanija koja želi redizajn, ili poslodavac koji traži pouzdanog frontend developera — tu sam da pomognem. Ne pravim samo sajtove. Gradim vaše digitalno prisustvo.">
+        Whether you&#39;re a small business looking for your first website, a company seeking a redesign, or an employer searching for a reliable frontend developer for hire — I&#39;m here to help. I don&#39;t just build websites. I build your digital presence.
+      </p>
+ 
+      <a href="#services" class="btn-inline-link"
+         data-en="→ See What I Can Do For You"
+         data-sr="→ Pogledaj Moje Usluge">→ See What I Can Do For You</a>
+ 
+      <div class="social-row">
+        <a href="https://www.instagram.com/_.s_milan._/" target="_blank" rel="noopener"
+           aria-label="Visit Milan Stojakov on Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+          </svg>
+          Instagram
+        </a>
+        <a href="tel:+381649143226" aria-label="Call Milan Stojakov">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 12 19.79 19.79 0 0 1 1.08 3.48 2 2 0 0 1 3.04 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 5.99 5.99l1.21-1.21a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          +381 64 914 3226
+        </a>
+      </div>
+    </div><!-- .hero-bio -->
+  </div><!-- .hero-content -->
+</section>
+ 
+<!-- ===== CLIENTS / TESTIMONIALS ===== -->
+<section id="clients" aria-labelledby="clientsHeading">
+  <h2 id="clientsHeading" class="section-title"
+      data-en="What Clients Say — <span>Real Reviews</span>"
+      data-sr="Šta Klijenti Kažu — <span>Stvarne Recenzije</span>">
+    What Clients Say — <span>Real Reviews</span>
+  </h2>
+  <p class="section-sub"
+     data-en="Client satisfaction is at the core of everything I do. Every review represents real collaboration — fast delivery, professional communication and results that exceed expectations."
+     data-sr="Zadovoljstvo klijenata je u osnovi svega što radim. Svaka recenzija predstavlja stvarnu saradnju — brza isporuka, profesionalna komunikacija i rezultati koji prevazilaze očekivanja.">
+    Client satisfaction is at the core of everything I do. Every review represents real collaboration — fast delivery, professional communication and results that exceed expectations.
+  </p>
+  <div class="slider-viewport" role="region" aria-label="Client testimonials slider">
+    <div class="slider-track" id="sliderTrack"></div>
+  </div>
+  <div class="section-cta">
+    <a href="#contact" class="btn-primary"
+       data-en="Join My Satisfied Clients" data-sr="Pridružite se Zadovoljnim Klijentima">
+      Join My Satisfied Clients
+    </a>
+  </div>
+</section>
+ 
+<!-- ===== SERVICES ===== -->
+<section id="services" aria-labelledby="servicesHeading">
+  <h2 id="servicesHeading" class="section-title"
+      data-en="My Services — <span>Professional Web Development</span>"
+      data-sr="Moje Usluge — <span>Profesionalna Izrada Sajtova</span>">
+    My Services — <span>Professional Web Development</span>
+  </h2>
+  <p class="section-sub"
+     data-en="A focused range of professional website development services designed to help businesses establish a strong, effective online presence."
+     data-sr="Fokusiran spektar usluga profesionalne izrade sajtova osmišljenih da pomognu firmama da izgrade snažno online prisustvo.">
+    A focused range of professional website development services designed to help businesses establish a strong, effective online presence.
+  </p>
+ 
+  <div class="services-container">
+ 
+    <article class="service-card" aria-label="Web Design service">
+      <div class="service-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+             stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="18" height="18" rx="2"/>
+          <path d="M3 9h18M9 21V9"/>
+        </svg>
+      </div>
+      <h3 data-en="Web Design" data-sr="Web Dizajn">Web Design</h3>
+      <p data-en="Visually compelling, brand-consistent modern website design tailored to your audience. Every project starts with your vision and ends with a design that stands out."
+         data-sr="Vizuelno upečatljiv, moderan dizajn sajtova prilagođen vašoj ciljnoj publici. Svaki projekat počinje vašom vizijom i završava se dizajnom koji se ističe.">
+        Visually compelling, brand-consistent modern website design tailored to your audience. Every project starts with your vision and ends with a design that stands out.
+      </p>
+    </article>
+ 
+    <article class="service-card" aria-label="Frontend Development service">
+      <div class="service-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+             stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="16 18 22 12 16 6"/>
+          <polyline points="8 6 2 12 8 18"/>
+        </svg>
+      </div>
+      <h3 data-en="Frontend Development" data-sr="Frontend Development">Frontend Development</h3>
+      <p data-en="Pixel-perfect implementation using HTML, CSS and JavaScript. Clean, semantic code that browsers love and search engines reward. Fast load times guaranteed."
+         data-sr="Besprekorna implementacija koristeći HTML, CSS i JavaScript. Čist, semantički kod koji pretraživači nagrađuju. Garantovano brzo učitavanje.">
+        Pixel-perfect implementation using HTML, CSS and JavaScript. Clean, semantic code that browsers love and search engines reward. Fast load times guaranteed.
+      </p>
+    </article>
+ 
+    <article class="service-card" aria-label="Responsive Design service">
+      <div class="service-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+             stroke-linecap="round" stroke-linejoin="round">
+          <rect x="5" y="2" width="14" height="20" rx="2"/>
+          <line x1="12" y1="18" x2="12.01" y2="18"/>
+        </svg>
+      </div>
+      <h3 data-en="Responsive Design" data-sr="Responzivni Dizajn">Responsive Design</h3>
+      <p data-en="Every website I build is fully responsive — optimized for desktop, tablet and mobile. Your visitors get a seamless experience regardless of their device."
+         data-sr="Svaki sajt koji napravim je potpuno responzivan — optimizovan za desktop, tablet i mobilne uređaje. Vaši posetioci dobijaju besprekorno iskustvo na svakom uređaju.">
+        Every website I build is fully responsive — optimized for desktop, tablet and mobile. Your visitors get a seamless experience regardless of their device.
+      </p>
+    </article>
+ 
+    <article class="service-card" aria-label="Website Optimization service">
+      <div class="service-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+             stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          <line x1="11" y1="8" x2="11" y2="14"/>
+          <line x1="8" y1="11" x2="14" y2="11"/>
+        </svg>
+      </div>
+      <h3 data-en="Website Optimization &amp; SEO" data-sr="Optimizacija Sajta i SEO">Website Optimization &amp; SEO</h3>
+      <p data-en="Beyond beautiful design, I focus on website optimization — fast loading speeds, clean code structure and SEO-friendly markup that helps your site rank higher on Google."
+         data-sr="Pored lepog dizajna, fokusiram se na optimizaciju sajta — brzo učitavanje, čista struktura koda i SEO-friendly markup koji pomaže vašem sajtu da bolje rangira na Googleu.">
+        Beyond beautiful design, I focus on website optimization — fast loading speeds, clean code structure and SEO-friendly markup that helps your site rank higher on Google.
+      </p>
+    </article>
+ 
+  </div><!-- .services-container -->
+ 
+  <div class="section-cta">
+    <a href="#contact" class="btn-primary"
+       data-en="Let&#39;s Work Together" data-sr="Hajde da Sarađujemo">Let&#39;s Work Together</a>
+  </div>
+</section>
+ 
+<!-- ===== PROJECTS ===== -->
+<section id="projects" aria-labelledby="projectsHeading">
+  <h2 id="projectsHeading" class="section-title"
+      data-en="Portfolio — Selected <span>Web Development Projects</span>"
+      data-sr="Portfolio — Odabrani <span>Web Development Projekti</span>">
+    Portfolio — Selected <span>Web Development Projects</span>
+  </h2>
+  <p class="section-sub"
+     data-en="Explore real-world websites designed and developed from scratch. Each project reflects a commitment to quality, performance, and modern aesthetics — from small business websites to complete redesigns."
+     data-sr="Istražite sajtove dizajnirane i razvijene od nule. Svaki projekat odražava posvećenost kvalitetu, performansama i modernoj estetici — od sajtova za male firme do kompletnih redizajna.">
+    Explore real-world websites designed and developed from scratch. Each project reflects a commitment to quality, performance, and modern aesthetics — from small business websites to complete redesigns.
+  </p>
+ 
+  <div class="projects-inner">
+    <div class="proj-slider" role="region" aria-label="Project portfolio slider">
+      <div class="proj-slide active" id="slide-0">
+        <img src="primer-sajta1.png"
+             alt="Modern responsive business website – web developer portfolio project by Milan Stojakov"
+             loading="lazy" width="860" height="483">
+      </div>
+      <div class="proj-slide" id="slide-1">
+        <img src="sajtprimer2.png"
+             alt="Custom HTML CSS JavaScript website – freelance project by Milan Stojakov, web developer from Serbia"
+             loading="lazy" width="860" height="483">
+      </div>
+      <div class="proj-slide" id="slide-2">
+        <img src="primersajta3.png"
+             alt="PHP-powered dynamic website – professional website development example by Milan Stojakov"
+             loading="lazy" width="860" height="483">
+      </div>
+      <div class="proj-slide" id="slide-3">
+        <img src="primersajta4.png"
+             alt="Mobile-friendly small business website – responsive design by Milan Stojakov, frontend developer for hire"
+             loading="lazy" width="860" height="483">
+      </div>
+      <button class="proj-btn prev" id="prevBtn" aria-label="Previous project">&#8592;</button>
+      <button class="proj-btn next" id="nextBtn" aria-label="Next project">&#8594;</button>
+    </div>
+    <div class="proj-dots" role="tablist" aria-label="Project navigation" id="projDots">
+      <button class="proj-dot active" role="tab" aria-label="Project 1" aria-selected="true"></button>
+      <button class="proj-dot"        role="tab" aria-label="Project 2" aria-selected="false"></button>
+      <button class="proj-dot"        role="tab" aria-label="Project 3" aria-selected="false"></button>
+      <button class="proj-dot"        role="tab" aria-label="Project 4" aria-selected="false"></button>
+    </div>
+  </div>
+ 
+  <div class="section-cta">
+    <a href="#contact" class="btn-primary"
+       data-en="Have a Project in Mind? Contact Me"
+       data-sr="Imate Projekat? Kontaktirajte Me">Have a Project in Mind? Contact Me</a>
+  </div>
+</section>
+ 
+<!-- ===== CONTACT ===== -->
+<section id="contact" aria-labelledby="contactHeading">
+  <h2 id="contactHeading" class="section-title"
+      data-en="Get In Touch — <span>Let&#39;s Build Something Great</span>"
+      data-sr="Javite Se — <span>Hajde da Izgradimo Nešto Sjajno</span>">
+    Get In Touch — <span>Let&#39;s Build Something Great</span>
+  </h2>
+  <p class="section-sub"
+     data-en="Ready to take your online presence to the next level? Whether you need a brand-new responsive website, a performance boost or a complete professional website development project — I&#39;m available and ready to start."
+     data-sr="Spremni da podignete vaše online prisustvo na viši nivo? Bilo da vam treba novi responzivni sajt, poboljšanje performansi ili kompletan projekat profesionalne izrade sajta — dostupan sam i spreman za početak.">
+    Ready to take your online presence to the next level? Whether you need a brand-new responsive website, a performance boost or a complete professional website development project — I&#39;m available and ready to start.
+  </p>
+ 
+  <!-- What Happens Next steps -->
+  <div class="contact-steps">
+    <div class="step">
+      <span class="step-num">01</span>
+      <p data-en="Send me a message describing your project"
+         data-sr="Pošaljite mi poruku sa opisom vašeg projekta">
+        Send me a message describing your project
+      </p>
+    </div>
+    <div class="step">
+      <span class="step-num">02</span>
+      <p data-en="We discuss your goals, timeline and budget"
+         data-sr="Razgovaramo o vašim ciljevima, rokovima i budžetu">
+        We discuss your goals, timeline and budget
+      </p>
+    </div>
+    <div class="step">
+      <span class="step-num">03</span>
+      <p data-en="I deliver a modern, optimized website — on time, every time"
+         data-sr="Isporučujem moderan, optimizovan sajt — na vreme, svaki put">
+        I deliver a modern, optimized website — on time, every time
+      </p>
+    </div>
+  </div>
+ 
+  <div class="contact-wrap">
+    <form id="contactForm" action="https://formspree.io/f/xeeprodb" method="POST" novalidate
+          aria-label="Contact form">
+          <input type="hidden" name="_replyto" value="">
+<input type="hidden" name="_subject" value="Nova poruka sa portfolia!">
+      <div class="form-group">
+        <label for="inputName" data-en="Name" data-sr="Ime">Name</label>
+        <input type="text" id="inputName" name="name" required
+               placeholder="Your name"
+               data-ph-en="Your name" data-ph-sr="Vaše ime"
+               autocomplete="name">
+      </div>
+      <div class="form-group">
+        <label for="inputEmail" data-en="Email" data-sr="Email">Email</label>
+        <input type="email" id="inputEmail" name="email" required
+               placeholder="your@email.com"
+               data-ph-en="your@email.com" data-ph-sr="vas@email.com"
+               autocomplete="email">
+      </div>
+      <div class="form-group">
+        <label for="inputMessage" data-en="Message" data-sr="Poruka">Message</label>
+        <textarea id="inputMessage" name="message" required
+                  placeholder="Write your message here..."
+                  data-ph-en="Write your message here..."
+                  data-ph-sr="Napišite poruku ovde..."></textarea>
+      </div>
+      <button class="btn-send" type="submit"
+              data-en="Send Message" data-sr="Pošalji Poruku">Send Message</button>
+    </form>
+  </div>
+</section>
+ 
+<!-- ===== FOOTER ===== -->
+<footer role="contentinfo">
+  <div class="footer-inner">
+    <span class="footer-logo">M<span>.</span></span>
+    <span data-en="&copy; 2026 Milan Stojakov &middot; All rights reserved"
+          data-sr="&copy; 2026 Milan Stojakov &middot; Sva prava zadržana">
+      &copy; 2026 Milan Stojakov &middot; All rights reserved
+    </span>
+    <div class="footer-links">
+      <a href="#home"     data-en="Home"     data-sr="Početna">Home</a>
+      <a href="#about"    data-en="About"    data-sr="O meni">About</a>
+      <a href="#services" data-en="Services" data-sr="Usluge">Services</a>
+      <a href="#projects" data-en="Projects" data-sr="Projekti">Projects</a>
+      <a href="#contact"  data-en="Contact"  data-sr="Kontakt">Contact</a>
+    </div>
+  </div>
+</footer>
+ 
+<script src="script.js"></script>
+</body>
+</html>

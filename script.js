@@ -140,6 +140,13 @@ document.addEventListener('DOMContentLoaded', () => {
     slides[currentSlide].classList.add('active');
     dots[currentSlide].classList.add('active');
     dots[currentSlide].setAttribute('aria-selected', 'true');
+
+    // Sync the Visit Site button to the now-active slide's URL
+    const visitBtn = document.getElementById('visit-site-btn');
+    if (visitBtn) {
+      const url = slides[currentSlide].getAttribute('data-url');
+      if (url) visitBtn.href = url;
+    }
   }
  
   function changeSlide(dir) {
@@ -156,6 +163,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const nextBtn = document.getElementById('nextBtn');
   if (prevBtn) prevBtn.addEventListener('click', () => changeSlide(-1));
   if (nextBtn) nextBtn.addEventListener('click', () => changeSlide(1));
+
+  // Set initial Visit Site href to match the initially active slide
+  const initialVisitBtn = document.getElementById('visit-site-btn');
+  const initialSlide = document.querySelector('.proj-slide.active');
+  if (initialVisitBtn && initialSlide) {
+    const initialUrl = initialSlide.getAttribute('data-url');
+    if (initialUrl) initialVisitBtn.href = initialUrl;
+  }
  
   document.querySelectorAll('.proj-dot').forEach((dot, i) => {
     dot.addEventListener('click', () => {

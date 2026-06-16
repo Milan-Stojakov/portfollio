@@ -252,6 +252,22 @@ section { padding: 92px 24px; }
 .btn-outline:hover {
   background: var(--black); color: var(--white); transform: translateY(-2px);
 }
+
+.btn-visit {
+  display: inline-block; text-decoration: none;
+  background: transparent; color: var(--white);
+  font-family: 'Roboto Slab', serif; font-weight: 700;
+  font-size: .92rem; letter-spacing: .6px;
+  padding: 13px 34px; border-radius: 5px;
+  border: 1px solid var(--white);
+  margin-left: 14px;
+  transition: background var(--trans), color var(--trans), border-color var(--trans), transform var(--trans);
+}
+.btn-visit:hover {
+  background: var(--blue); color: var(--white);
+  border-color: var(--blue);
+  transform: scale(1.06);
+}
  
 /* ================================================================
    CLIENTS / TESTIMONIALS
@@ -390,6 +406,26 @@ section { padding: 92px 24px; }
   border: none; transition: background var(--trans);
 }
 .proj-dot.active { background: var(--blue); }
+
+
+
+#visit-site-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #000; /* ili boja tvog portfolija */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+#visit-site-btn:hover {
+    background: var(--blue-h);
+    color: #fff;
+}
+
+
  
 /* ================================================================
    CONTACT
